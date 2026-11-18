@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Práctica de animaciones",
+    "slug": "practica-animaciones-expo",
+    "scheme": "practica-animaciones",
+    "orientation": "portrait",
+    "plugins": ["expo-router", ["expo-sensors", {
+      "motionPermission": "Esta práctica usa el acelerómetro para detectar sacudidas."
+    }]]
+  }
+}
